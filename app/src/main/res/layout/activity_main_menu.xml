@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:context=".MainMenu">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/text_view_MainMenu_family_name"
+        android:layout_height="wrap_content"
+        android:text="Family Name"
+        android:gravity="center"
+        android:textSize="36sp"
+        android:fontFamily="sans-serif-black"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome !!"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:fontFamily="sans-serif-light"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/text_view_MainMenu_member_name"
+        android:layout_height="wrap_content"
+        android:text="Member name"
+        android:gravity="center"
+        android:textSize="36sp"
+        android:fontFamily="sans-serif-medium"
+        />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:id="@+id/image_view_MainMenu_profile_pic"
+        android:layout_gravity="center"
+        android:src="@mipmap/ic_launcher"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/button_MainMenu_main_menu"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="Conversations"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/button_MainMenu_main_alerts"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="Alerts"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_MainMenu_main_log_out"
+        android:textSize="18sp"
+        android:text="LogOut"
+        />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

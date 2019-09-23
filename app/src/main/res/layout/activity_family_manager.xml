@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:padding="8dp"
+    >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:text="Family Manager"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_marginTop="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create And Manage Family Groups"
+        android:layout_marginBottom="32dp"
+        />
+
+    <EditText
+        android:id="@+id/edit_text_FamilyManager_family_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter Family Name"
+        android:inputType="textPersonName"
+        />
+
+    <EditText
+        android:id="@+id/edit_text_FamilyManager_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:layout_marginBottom="32dp"
+        />
+
+
+    <Button
+        android:id="@+id/button_FamilyManager_login"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:text="Family Login"
+        />
+
+    <Button
+        android:id="@+id/button_FamilyManager_family_sign_up"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Create Family Group"
+        tools:text="Create Family Group" />
+
+</LinearLayout>

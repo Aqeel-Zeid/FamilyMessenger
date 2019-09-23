@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".CreateFamily"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create Family"
+        android:fontFamily="sans-serif-black"
+        android:textSize="36sp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Set Up Your Family Account Here"
+        android:fontFamily="sans-serif-light"
+        android:textSize="18sp"
+        android:layout_marginBottom="36sp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter A Unique Family Name"
+        android:fontFamily="sans-serif-light"
+        android:textSize="18sp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_text_CreateFamily_familyName"
+        android:hint="Dissanayaka familly 52"
+        android:layout_marginBottom="8dp"
+        />
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Enter A password"
+    android:fontFamily="sans-serif-light"
+    android:textSize="18sp"
+    />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_text_CreateFamily_password"
+        android:inputType="textPassword"
+        android:layout_marginBottom="8dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Re-enter password"
+        android:fontFamily="sans-serif-light"
+        android:textSize="18sp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_text_CreateFamily_reEnterPassword"
+        android:inputType="textPassword"
+        android:layout_marginBottom="8dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create Family"
+        android:id="@+id/button_CreateFamily_CreateFamily"
+        />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        tools:context=".FamilyMemberUpdateView">
+
+        <TextView
+            android:id="@+id/text_view_FamilyMemberUpdate_member_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Member Name"
+            android:layout_gravity="center"
+            android:textSize="36sp"
+            android:fontFamily="sans-serif-black"
+            />
+
+        <TextView
+            android:id="@+id/text_view_FamilyMemberUpdate_nick_name"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="18sp"
+            android:fontFamily="sans-serif-medium"
+            android:layout_height="wrap_content"
+            android:text="Member NickName" />
+
+        <TextView
+            android:id="@+id/text_view_FamilyMemberUpdate_member_phone"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-light"
+            android:textSize="12sp"
+            android:layout_height="wrap_content"
+            android:text="Member Phone Number" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:layout_gravity="center"
+            android:src="@mipmap/ic_launcher"
+            android:id="@+id/image_view_FamilyMemberUpdate_profile_photo"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Choose Profile Picture"
+            android:id="@+id/button_FamilyMemberUpdate_PickImage"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Update Profile Picture"
+            android:id="@+id/button_FamilyMemberUpdate_UploadImage"
+            />
+
+
+
+        <TextView
+            android:textSize="24sp"
+            android:fontFamily="sans-serif-medium"
+            android:layout_gravity="center"
+            android:layout_marginTop="36sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Update Password"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Old Password"
+            android:id="@+id/edit_text_FamilyMemberUpdate_oldPassword"
+            android:inputType="textPassword"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="New Password"
+            android:id="@+id/edit_text_FamilyMemberUpdate_newPassword"
+            android:inputType="textPassword"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_FamilyMemberUpdate_update_password"
+            android:text="Update Password"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_FamilyMemberUpdate_delete_member"
+            android:layout_marginTop="16dp"
+            android:text="Delete Member"/>
+
+
+
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</ScrollView>

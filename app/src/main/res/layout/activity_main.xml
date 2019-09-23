@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:padding="8dp"
+    >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:text="Family Chat"
+        android:textSize="36sp"
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:fontFamily="sans-serif-light"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="messenger"
+        android:layout_marginBottom="32dp"
+       />
+
+    <EditText
+        android:id="@+id/edit_text_MainActivity_family_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter Family Name"
+        android:inputType="textPersonName"
+
+        />
+
+    <EditText
+        android:id="@+id/edit_text_MainActivity_member_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter Member Name"
+        android:inputType="textPersonName"
+
+       />
+
+    <EditText
+        android:id="@+id/edit_text_MainActivity_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:layout_marginBottom="32dp"
+       />
+
+
+    <Button
+        android:id="@+id/button_MainActivity_login"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:text="Login" />
+
+    <Button
+        android:id="@+id/button_MainActivity_family_sign_up"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Family SignUp"
+        tools:text="Family SignUp" />
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "429231031149",
+    "firebase_url": "https://familymessenger-94d0a.firebaseio.com",
+    "project_id": "familymessenger-94d0a",
+    "storage_bucket": "familymessenger-94d0a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:429231031149:android:a47fe01ce24a8285b31064",
+        "android_client_info": {
+          "package_name": "com.example.familymessenger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "429231031149-dc5fi2hmomjo6jvetpdq93bj2068stg5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.familymessenger",
+            "certificate_hash": "c27349d87d67c44887d8e58905463f80888303a8"
+          }
+        },
+        {
+          "client_id": "429231031149-bebraupjujreufebo1inq3q6fh0lv9qk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDP58C_6e4az2a-OsvOx5wm_sAIqDmYrwc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "429231031149-bebraupjujreufebo1inq3q6fh0lv9qk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
